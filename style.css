@@ -1,0 +1,167 @@
+.container {
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.banner {
+    background-image: url(./img/banner.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 958px;
+}
+.b-box {
+    width: 305px;
+    margin: 0 auto;
+    padding-top: 308px;
+}
+.b-text {
+    color: #fff;
+}
+.b-t-1 {
+    line-height: 42px;
+}
+.m-0 {
+    margin-top: 32px;
+}
+.title {
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.icon {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon a:hover{
+    opacity: 0.7;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h2 {
+    font-size: 64px;
+    line-height: 84px;
+    margin-top: 56px;
+    font-weight: bold;
+}
+.about img {
+    margin-top: 40px;
+}
+.about ul {
+    text-align: center;
+    font-weight: bold;
+}
+.ab-text1 {
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.ab-text2 {
+    padding-top: 28px;
+    width: 384px;
+    border-top: 1px solid #000;
+    margin-bottom: 56px;
+}
+.ab-text2 li::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+    background-color: #891818;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.my-brand {
+    background-color: #000;
+}
+.brand-text {
+    padding-top: 56px;
+    color: #fff;
+    text-align: center;
+}
+.brand-text h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+.brand-text span {
+    line-height: 42px;
+    margin-top: 12px;
+}
+.brand-text p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+    font-style: normal;
+}
+.brand-img {
+    padding-top: 68px;
+    padding-bottom: 120px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle {
+    margin: 0 auto;
+}
+.brand-img li {
+    margin-bottom: 40px;
+}
+.work {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.work-text h2{
+    margin-top: 56px;
+    font-size: 64px;
+    line-height: 84px;
+}
+.work-text p {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+.work-box {
+    margin-top: 56px;
+    margin-bottom: 96px;
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-style: normal;
+}
+.work-box li {
+    margin-bottom: 92px;
+}
+.work-box li p, span {
+    font-size: 20px;
+    line-height: 42px;
+}
+.work-box li span {
+    font-style: italic;
+}
+.contact ul {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    padding: 64px;
+}
+.contact ul h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+.contact ul p {
+    margin-top: 16px;
+}
